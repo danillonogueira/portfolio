@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #fff;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  background: #0066cc;
+  color: #fff;
+  height: auto;
+  height: 620px;
+}
+
+.line1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo,
+button {
+  margin: 50px 100px;
+}
+
+.logo {
+  display: flex;
+}
+
+.icon {
+  margin: 0 8px;
+}
+
+button {
+  background: rgba(255, 255, 255, .2);
+  font-weight: 400;
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.line2 {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+}
+
+h1,
+.line2 p {
+  margin: 8px 100px;
+  line-height: 1.5;
+}
+
+.line2 p {
+  color: rgba(255, 255, 255, .6);
+}
+
+.circle {
+  border-style: unset;
+  border-radius: 50%;
+  border-color: rgba(255, 255, 255, .2);
+  background: rgba(255, 255, 255, .2);
+  width: 500px;
+  height: 500px;
+}
+
+.circle1 {
+  position: relative;
+  bottom: 610px;
+  right: 180px;
+}
+
+.circle2 {
+  position: relative;
+  bottom: 650px;
+  left: 1500px;
+}
+
+.circle3 {
+  position: relative;
+  bottom: 1000px;
+  left: 1180px;
+}
+
+.box-1,
+.box-2 {
+  position: relative;
+  background: #fff;
+  width: 40%;
+  display: flex;
+  margin: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  line-height: 1.5;
+}
+
+.img {
+  width: 30%;
+  height: 50%;
+}
+
+.text {
+  bottom: 250px;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  padding: 25px;
+}
+
+
+section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  bottom: 250px;
+  padding: 90px;
+  align-items: flex-start;
+}
+
+.box-bottom {
+  display: flex;
+  justify-content: space-between;
+  border-top: solid;
+  border-width: 1px;
+  padding: 10px 0 0 0;
+  margin: 15px 0 0 0;
+  border-color: #bfbfbf;
+}
+
+section p {
+  color: #808080;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(0, 12, 51, .7);
+  height: 120px;
+  bottom: 300px;
+  position: relative;
+  justify-content: space-between;
+  color: #fff;
+}
+
+.lil-box {
+  display: flex;
+  margin: 40px 100px;
+}
+
+footer .icon {
+  font-size: 2em;
+  color: #bfbfbf;
+}
+
+.gray {
+  color: #bfbfbf;
+}
+
+.line {
+  border-left: 1px solid #fff;
+  height: 40px;
+  margin-right: 8px;
+}
+
+hr {
+  width: 30px;
+  background: #cccc00;
+  margin: 0 100px;
+  height: 3px;
+  border-radius: 1px;
+}
